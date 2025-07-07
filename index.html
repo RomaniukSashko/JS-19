@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS-19</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div>
+      Завдання 1
+      <form>
+        <p>Choose a color:</p>
+        <label>
+          <input type="radio" name="color" value="red" checked />
+          Red
+        </label>
+        <label>
+          <input type="radio" name="color" value="white" />
+          White
+        </label>
+        <label>
+          <input type="radio" name="color" value="green" />
+          Green
+        </label>
+      </form>
+    </div>
+    <div>
+      Завдання 2
+      <input type="text" placeholder="Ваше ім'я?" id="name-input" />
+      <h1>Привіт, <span id="name-output">незнайомець</span>!</h1>
+    </div>
+    <div>
+      Завдання 3
+      <input
+        type="text"
+        id="validation-input"
+        data-length="6"
+        placeholder="Введи 6 символів"
+      />
+    </div>
+    <div>
+      Завдання 4
+      <input id="font-size-control" type="range" />
+      <br />
+      <span id="text">Абракадабра!</span>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
